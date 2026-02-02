@@ -337,7 +337,7 @@ const ScenarioTwo = () => {
                     onClick={() => downloadFile(file.name)}
                     className="p-2 text-slate-400 hover:text-blue-600 hover:bg-white rounded-full transition-all download-action-drilldown"
                   >
-                    <Download size={18} />
+                    <Download id="download-btn" size={18} />
                   </button>
                 </div>
               ))}
