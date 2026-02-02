@@ -222,7 +222,7 @@ const ScenarioOne = () => {
                     onClick={() => downloadFile(f.name)}
                     className="p-2 text-slate-400 hover:text-blue-600 download-action"
                   >
-                    <Download size={18} />
+                    <Download id="download-btn" size={18} />
                   </button>
                 </td>
               </tr>
